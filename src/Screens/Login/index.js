@@ -12,7 +12,6 @@ const Login = ({logIn}) => {
   return (
     <View style={styles.container}>
       <Text style={styles.textStyle}>Login Page</Text>
-      <Button onPress={() => onButtonPressed()} />
     </View>
   );
 };
